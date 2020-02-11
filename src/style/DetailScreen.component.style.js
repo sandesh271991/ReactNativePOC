@@ -6,7 +6,7 @@ import { StyleSheet } from 'react-native';
     mainContainer: {
         flex: 1,
         alignItems: "center",
-        height: 100,
+        height: 80,
         justifyContent: "center",
     },
 
@@ -16,7 +16,8 @@ import { StyleSheet } from 'react-native';
         width: "80%",
         justifyContent: "center",
         backgroundColor: '#dedede',
-        margin: 50,
+        margin: 30,
+        marginTop: 100,
         borderRadius : 30, 
     },
 

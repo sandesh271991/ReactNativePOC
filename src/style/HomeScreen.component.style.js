@@ -1,7 +1,5 @@
 import { StyleSheet } from 'react-native';
 
-
-
  export default StyleSheet.create({
 
     listRowContainer :{
@@ -60,4 +58,4 @@ import { StyleSheet } from 'react-native';
       marginRight: 5,
     }
 
-});
+ });

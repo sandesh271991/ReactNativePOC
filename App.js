@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import { StyleSheet} from 'react-native';
 import { createStackNavigator } from 'react-navigation-stack';
 import { createAppContainer } from 'react-navigation';
-import { Ionicons } from '@expo/vector-icons'; 
-import DetailView from './Component/DetailView';
-import HomeScreen from './Component/Home';
+import DetailView from './src/component/DetailView';
+import HomeScreen from './src/component/Home';
 
 
 const MainNavigator = createStackNavigator({
