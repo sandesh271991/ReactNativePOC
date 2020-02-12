@@ -1,6 +1,6 @@
 import { StyleSheet, FlatList, Text, View, Image, TouchableOpacity,TouchableHighlight, Button} from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import styles from '../style/HomeScreen.component.style.js';
+import styles from '../style/Home.component.style.js';
 import {ActivityIndicator } from 'react-native-paper';
 import React, { Component } from 'react';
 import axios from "axios";
@@ -11,6 +11,8 @@ import axios from "axios";
 export default class HomeScreen extends Component {
 
   _isMounted = false;
+
+  
   
     // For to Navigation header
     static navigationOptions = ({ navigation }) => {
@@ -36,6 +38,7 @@ export default class HomeScreen extends Component {
         isLoading: true
       }
     }
+
 
     getAlbums() {
       this._isMounted = true;

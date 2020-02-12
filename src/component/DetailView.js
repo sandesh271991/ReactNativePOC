@@ -1,5 +1,5 @@
 import { StyleSheet, View, Image, TouchableHighlight } from 'react-native';  
-import styles from '../style/DetailScreen.component.style';
+import styles from '../style/DetailView.component.style';
 import { Portal, Button, Provider, Text, Modal } from 'react-native-paper';
 import GrapghCompo from './Graph';
 import { Dimensions } from 'react-native';

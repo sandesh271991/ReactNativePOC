@@ -37,10 +37,27 @@
     "babel-preset-expo": "~8.0.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-import": "2.20.1",
     "jest-cli": "^25.1.0",
     "jest-environment-enzyme": "^7.1.2",
     "jest-enzyme": "^7.1.2",
     "react-dom": "^16.9.0"
   },
-  "private": true
+  "private": true,
+  "name": "ReactNativePOC",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandesh271991/ReactNativePOC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandesh271991/ReactNativePOC/issues"
+  },
+  "homepage": "https://github.com/sandesh271991/ReactNativePOC#readme",
+  "description": ""
 }
